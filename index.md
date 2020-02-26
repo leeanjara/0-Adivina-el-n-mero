@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="CSS/style.css">
 </head-->
 <body class="flex--center" background="Imagenes/bandw.jpg">
-    <div class="container" style="display: block;">
+    <div class="container">
         <div class="container__screen flex--center">
             <div id="screen--id" class="screen flex--center">
                 <header id="adivina">Adivina el número</header>
