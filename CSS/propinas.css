@@ -1,0 +1,85 @@
+/*Mobile First. 
+-La página es para celular por defecto.
+-el primer @media 480px es para teléfonos en horizontal
+-el segundo @media 767px es para tablets
+-el último @media 950px es para PC*/
+*{font-family: Georgia, 'Times New Roman', Times, serif;}
+@media screen and (max-width: 480px){
+    #divi{
+        background: #07889b;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 400px;
+    }
+}
+
+#container{
+    border: 1px grey solid; 
+    background-color: #66B9BF;  
+    padding: 20px; 
+    align-items: center; 
+    display: flex; 
+    flex-direction: column;
+}
+
+/*A partir de 480px*/
+@media screen and (min-width: 480px)
+{
+    #container{
+        width: 300px;
+        padding: 20px;
+    }
+    #divi{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 400px;
+        margin:0;
+        background: #07889b;
+    }
+}
+
+
+ul li{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inputs{
+    padding-bottom: 3px;
+    border-bottom:  0.5px black solid;
+    font-weight: normal;
+}
+
+select{
+    border-radius: 2px;
+    margin-left: 8px;
+    box-shadow: 1px 1px 4px rgb(100,50,15);
+    padding: 4px;
+}
+input{
+    border-radius: 2px; 
+    margin-left: 8px;
+    margin-right: 2px;
+    box-shadow: 1px 1px 4px rgb(100,50,15);
+    padding: 4px;
+}
+#input--costo{
+    margin-left: 0px;
+    box-shadow: 1px 1px 4px rgb(100,50,15);
+}
+button{
+    border-radius: 2px;
+    border-top: rgb(92, 43, 3);
+    border-left: rgb(92, 43, 3);
+    box-shadow: 1px 1px 3px rgb(100,50,15);
+    background: #E9B000;
+
+    color: black;
+
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 40%;
+    padding: 5px;
+}
