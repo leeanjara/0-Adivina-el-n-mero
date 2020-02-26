@@ -1,11 +1,11 @@
-<!--DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es-MX">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="CSS/style.css">
-</head-->
+</head>
 <body class="flex--center" background="Imagenes/bandw.jpg">
     <div class="container">
         <div class="container__screen flex--center">
@@ -32,4 +32,4 @@
     </div>
 <script src="JS/index.js"></script>
 </body>
-<!--/html-->
+</html>
